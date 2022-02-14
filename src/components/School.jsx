@@ -8,18 +8,22 @@ const School = () => {
   return (
     <div className="font-['Quantico'] text-white grid grid-cols-1 md:w-full">
       {/**Fondo */}
-      <div className=" md:w-full">
+      <div className="mb-16 md:w-full md:block">
         {/**Imagen */}
-        <img src={Fondo} alt="" className="blur-[1px] absolute md:blur-[2px]" />
+        <img
+          src={Fondo}
+          alt=""
+          className="blur-[1px] absolute md:blur-[2px] md:h-[75%] md:w-full"
+        />
         {/**Contenedor */}
-        <div className=" text-3xl uppercase relative text-center pt-8 animate__animated animate__fadeInRight md:py-[22%]">
+        <div className=" text-3xl uppercase relative text-center pt-8 animate__animated animate__fadeInRight md:py-[17.5%]">
           <p>Ingeniería en Computación</p>
           <p className="pt-8">(2012 - 2019)</p>
         </div>
       </div>
 
       {/**Contenido */}
-      <div className="relative pt-20">
+      <div className="relative md:pt-32 lg:pt-10">
         <h1 className="uppercase text-center text-2xl pt-5 animate__animated md:text-6xl">
           Conocimientos en:
         </h1>

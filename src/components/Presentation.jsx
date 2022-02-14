@@ -8,7 +8,7 @@ const Presentation = () => {
       </div>
       <div className="p-5 md:my-auto mx-auto">
         {/**titulo */}
-        <h1 className="animate__animated animate__fadeIn text-4xl text-white font-['Quantico']">
+        <h1 className="animate__animated animate__fadeIn text-4xl text-white font-['Quantico'] xl:text-5xl">
           Hola soy Sergio
         </h1>
         {/**Presentacion */}
@@ -18,7 +18,7 @@ const Presentation = () => {
           luchar con el día a día siendo un padre ejemplar.
         </p>
         {/**Bienvenida */}
-        <h2 className="animate__animated  animate__fadeIn font-['Quantico'] text-white text-4xl pt-10">
+        <h2 className="animate__animated  animate__fadeIn font-['Quantico'] text-white text-4xl pt-10 xl:text-5xl">
           Bienvenido(a) a mi Portafolio Web!
         </h2>
 

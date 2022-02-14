@@ -1,4 +1,4 @@
-const Trabajo = ({ titulo, subtitulo, descripcion }) => {
+const Trabajo = ({ titulo, subtitulo, descripcion, freelance }) => {
   return (
     <div className="md:h-auto">
       {/**Cuadro de descripcion de trabajo */}
@@ -15,7 +15,25 @@ const Trabajo = ({ titulo, subtitulo, descripcion }) => {
           </p>
           {/**Descripcion */}
           <div>
-            <p className="text-[#FAC16B] text-2xl pt-5 mx-5 ">{descripcion}</p>
+            {freelance ? (
+              <a href="http://escuelalibredehomeopatia.com.mx">
+                <p
+                  className={`text-[#FAC16B]  pt-5 mx-5 ${
+                    freelance === true ? "text-[18px]" : "text-2xl"
+                  }`}
+                >
+                  {descripcion}
+                </p>
+              </a>
+            ) : (
+              <p
+                className={`text-[#FAC16B]  pt-5 mx-5 ${
+                  freelance === true ? "text-[18px]" : "text-2xl"
+                }`}
+              >
+                {descripcion}
+              </p>
+            )}
           </div>
         </div>
       </div>

@@ -14,13 +14,13 @@ const Presentation = () => {
             Hola soy Sergio
           </h1>
           {/**Presentacion */}
-          <p className="animate__animated  animate__fadeIn font-['Quantico'] text-white text-3xl pt-10">
+          <p className=" font-['Quantico'] text-white text-3xl pt-10">
             Un desarrollador web y analista de IT, entusiasta con mis proyectos
             y mi trabajo. Con muchas ganas de seguir aprendiendo y, no puede
             faltar, luchar con el día a día siendo un padre ejemplar.
           </p>
           {/**Bienvenida */}
-          <h2 className="animate__animated  animate__fadeIn font-['Quantico'] text-white text-4xl pt-10 xl:text-5xl">
+          <h2 className=" font-['Quantico'] text-white text-4xl pt-10 xl:text-5xl">
             Bienvenido(a) a mi Portafolio Web!
           </h2>
 

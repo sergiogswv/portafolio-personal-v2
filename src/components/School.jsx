@@ -23,7 +23,7 @@ const School = () => {
             className="blur-[1px] absolute md:blur-[2px] md:h-[40%] md:w-full object-none lg:h-[60%]"
           />
           {/**Contenedor */}
-          <div className=" text-3xl uppercase relative text-center pt-8 animate__animated animate__fadeInRight md:py-[17.5%] lg:py-[10%]">
+          <div className=" text-3xl uppercase relative text-center pt-8  md:py-[17.5%] lg:py-[10%]">
             <p>Ingeniería en Computación</p>
             <p className="pt-8">(2012 - 2019)</p>
           </div>

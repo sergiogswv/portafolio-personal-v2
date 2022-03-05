@@ -88,7 +88,7 @@ const School = () => {
               <h1 className="text-xl md:text-3xl lg:text-6xl">SystemCLF</h1>
               <p>React + Redux + StyledComponents</p>
               <p>Diseño en Figma</p>
-              <div className="text-xl">
+              <div className="text-xs md:text-xl ">
                 <a
                   className="hover:underline "
                   href="https://relaxed-villani-ccb115.netlify.app/"

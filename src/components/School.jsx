@@ -9,6 +9,7 @@ import ImgGraphql from "../img/graphql-img.png";
 import ProjectCLF from "../img/CLF-Devices.png";
 import ProjectShop from "../img/bshop-devices.png";
 import ProjectFigma from "../img/Figma.png";
+import { Link } from "react-router-dom";
 
 const School = () => {
   return (
@@ -31,7 +32,7 @@ const School = () => {
 
         {/**Contenido */}
         <div className="relative md:pt-10 lg:pt-10 text-center">
-          <h1 className="uppercase text-center text-2xl pt-5 animate__animated md:text-6xl">
+          <h1 className="uppercase text-center text-2xl pt-5  md:text-6xl">
             Conocimientos en:
           </h1>
           {/* Contenido de imagenes */}
@@ -41,7 +42,7 @@ const School = () => {
               <img
                 src={ImgReact}
                 alt="imagen de React "
-                className="hover:blur-sm md:w-1/2 md:mx-auto animate__animated animate__fadeInLeft w-4/3"
+                className="hover:blur-sm md:w-1/2 md:mx-auto   w-4/3"
               />
               <p>REACT</p>
             </div>
@@ -50,7 +51,7 @@ const School = () => {
               <img
                 src={ImgSql}
                 alt="imagen de Sql "
-                className="hover:blur-sm md:w-1/2 md:mx-auto animate__animated animate__fadeInRight w-4/3"
+                className="hover:blur-sm md:w-1/2 md:mx-auto   w-4/3"
               />
               <p>SQL</p>
             </div>
@@ -59,7 +60,7 @@ const School = () => {
               <img
                 src={ImgOffice}
                 alt="imagen de Office"
-                className="hover:blur-sm md:w-1/2 md:mx-auto animate__animated animate__fadeInLeft w-4/3"
+                className="hover:blur-sm md:w-1/2 md:mx-auto   w-4/3"
               />
               <p>OFFICE</p>
             </div>
@@ -68,7 +69,7 @@ const School = () => {
               <img
                 src={ImgGraphql}
                 alt="imagen de Graphql"
-                className="hover:blur-sm md:w-1/2 md:mx-auto animate__animated animate__fadeInRight w-4/3"
+                className="hover:blur-sm md:w-1/2 md:mx-auto   w-4/3"
               />
               <p>GRAPHQL</p>
             </div>
@@ -87,6 +88,15 @@ const School = () => {
               <h1 className="text-xl md:text-3xl lg:text-6xl">SystemCLF</h1>
               <p>React + Redux + StyledComponents</p>
               <p>Diseño en Figma</p>
+              <div className="text-xl">
+                <a
+                  className="hover:underline "
+                  href="https://relaxed-villani-ccb115.netlify.app/"
+                >
+                  SystemCLF - Alojado en Netlify
+                </a>
+                <p>Backend en nodejs - Alojado en Heroku</p>
+              </div>
             </div>
           </div>
           {/* Proeycto Shop */}

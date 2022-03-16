@@ -2,6 +2,7 @@ import Home from "../img/nav-img1.svg";
 import Academic from "../img/nav-img2.svg";
 import Work from "../img/nav-img3.svg";
 import Objectives from "../img/nav-img4.svg";
+import Extras from "../img/plus.svg";
 
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -53,6 +54,16 @@ const Nav = () => {
             locacion.pathname === "/aptitudes" && "bg-[#007AFF] rounded-3xl"
           }`}
           onClick={() => cambiarUbicacion("aptitudes")}
+        />
+      </div>
+      <div className="pt-3">
+        <img
+          src={Extras}
+          alt="Extras"
+          className={`w-8 cursor-pointer ${
+            locacion.pathname === "/extras" && "bg-[#007AFF] rounded-3xl"
+          }`}
+          onClick={() => cambiarUbicacion("extras")}
         />
       </div>
     </nav>

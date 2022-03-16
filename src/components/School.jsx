@@ -21,7 +21,7 @@ const School = () => {
           className="blur-[1px] absolute md:blur-[2px] md:h-[40%] md:w-full object-none lg:h-[60%]"
         />
         {/**Contenedor */}
-        <div className=" text-3xl uppercase relative text-center pt-10 mt-10  md:py-[10%] lg:py-[10%]">
+        <div className=" text-3xl uppercase relative text-center pt-10   md:py-[10%] lg:py-[10%]">
           <p>Ingeniería en Computación</p>
           <p className="pt-8">(2012 - 2019)</p>
         </div>
@@ -29,7 +29,7 @@ const School = () => {
 
       {/**Contenido */}
       <div className="relative md:pt-5 lg:pt-10 text-center">
-        <h1 className="uppercase text-center text-2xl pt-10 mt-5  md:text-6xl md:pt-0 md:mt-0">
+        <h1 className="uppercase text-center text-2xl pt-2 mt-5 md:text-6xl md:pt-5 lg:pt-10">
           Conocimientos en:
         </h1>
         {/* Contenido de imagenes */}

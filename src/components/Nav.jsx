@@ -56,7 +56,7 @@ const Nav = () => {
           onClick={() => cambiarUbicacion("aptitudes")}
         />
       </div>
-      <div className="pt-3">
+      {/* <div className="pt-3">
         <img
           src={Extras}
           alt="Extras"
@@ -65,7 +65,7 @@ const Nav = () => {
           }`}
           onClick={() => cambiarUbicacion("extras")}
         />
-      </div>
+      </div> */}
     </nav>
   );
 };
